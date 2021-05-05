@@ -8,7 +8,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 
-public class stepDefinition {
+public class StepDefinition {
 	
 	
 	//BACKGROUND STEPS:

@@ -26,6 +26,7 @@ Feature: Application Login
   When browser is trigered
   Then check if browser is started
   
+  #Here all the tests start
 	@SmokeTest1
   Scenario: Home page default login
     Given User is on landing page
@@ -51,7 +52,7 @@ Feature: Application Login
     And Cards are displayed
 
 #Parametrizing tests. With traditional framework is not easy, a lot of coding. 
-
+	@PortalTest
 	Scenario Outline: Hope page default login PARAMETRIZED
     Given User is on landing page
     When Users can login into application with <username> and <password>
